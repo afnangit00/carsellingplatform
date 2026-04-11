@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-yellow: #FFC107;
+  --color-dark-bg: #0A0A0A;
+  --color-card-bg: #161618;
+}
+
+:root {
+  background-color: var(--color-dark-bg);
+  color: white;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-brand-yellow);
+  border-radius: 10px;
+}
