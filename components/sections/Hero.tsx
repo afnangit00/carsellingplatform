@@ -20,7 +20,7 @@ export default function Hero() {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <span className="bg-brand-yellow text-black text-xs font-bold px-3 py-1 rounded-full uppercase tracking-widest">Premium Service</span>
+          <span className="bg-brand-yellow text-black text-xs font-bold px-3 py-1 rounded-full uppercase tracking-widest ">Premium Service</span>
           <h1 className="text-6xl lg:text-8xl font-black leading-none my-6 uppercase italic">
             Sell Your Car <br /> <span className="text-brand-yellow">The Smarter Way</span>
           </h1>
@@ -30,7 +30,7 @@ export default function Hero() {
         </motion.div>
 
         {/* Lead Form Container */}
-        <motion.div 
+        {/* <motion.div 
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           className="bg-card-bg/80 backdrop-blur-xl p-8 rounded-3xl border border-white/10 shadow-2xl"
@@ -47,7 +47,7 @@ export default function Hero() {
               Get an Instant Offer
             </button>
           </div>
-        </motion.div>
+        </motion.div> */}
       </div>
     </section>
   );

@@ -19,7 +19,7 @@ export default function Home() {
         <h2 className="text-4xl font-black text-center mb-12 uppercase italic">Recent Sales</h2>
         <CarGrid />
       </section>
-
+      
       <WhyChooseUs />
       <About />
       <Testimonials />
